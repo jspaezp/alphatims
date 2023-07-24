@@ -8,7 +8,7 @@ name: Publish on PyPi and release on GitHub
 
 env:
   REGISTRY: ghcr.io
-  IMAGE_NAME: MannLabs/alphatims
+  IMAGE_NAME: ${{ github.repository_owner }}/alphatims
 
 jobs:
   Version_Bumped:
